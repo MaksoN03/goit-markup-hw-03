@@ -11,11 +11,13 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header class="page-header">
-      <nav class="page-navigation">
+      <div class="container">
+        <nav class="page-navigation">
         <a href="#webstudio" class="webstudio link"
           ><span class="weblogo">Web</span><span class="studiologoblack">Studio</span></a
         >
@@ -39,10 +41,12 @@
           <a href="mailto:info@devstudio.com" class="contacts-link link">info@devstudio.com</a>
         </li>
       </ul>
+      </div>
     </header>
     <main>
       <section class="page-buttons">
-        <h1 class="buttons visually-hidden">Кнопки</h2>
+        <div class="container">
+          <h1 class="buttons visually-hidden">Кнопки</h2>
         <ul class="buttons-list list">
           <li class="buttons-list-item">
             <button class="portfolio-buttons buttoncursor" type="button">Усі</button>
@@ -60,9 +64,11 @@
             <button class="portfolio-buttons buttoncursor" type="button">Маркетинг</button>
           </li>
         </ul>
+        </div>
       </section>
       <section class="page-portfolio-projects">
-        <ul class="portfolio-projects list">
+        <div class="container">
+          <ul class="portfolio-projects list">
           <li class="portfolio-projects-item">
             <img
               src="./images/portfolio-1.jpg"
@@ -163,10 +169,12 @@
             <p class="portfolio-projects-description">Додаток</p>
           </li>
         </ul>
+        </div> 
       </section>
     </main>
     <footer class="page-footer">
-      <a href="#webstudio" class="webstudio link"
+      <div class="container">
+        <a href="#webstudio" class="webstudio link"
         ><span class="weblogo">Web</span><span class="studiologowhite">Studio</span></a
       >
       <address class="address-footer">
@@ -188,6 +196,7 @@
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
