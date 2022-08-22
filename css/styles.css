@@ -150,8 +150,17 @@ body {
 /*-------------- /HEADER --------------*/
 
 /*-------------- FOOTER --------------*/
+
 .page-footer {
     background-color: var(--dark-bg-color);
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.webstudio-footer {
+    display: block;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
 .studiologowhite {
@@ -165,6 +174,11 @@ body {
 .address-footer {
     font-style: normal;
     line-height: 1.71;
+    margin-right: auto;
+}
+
+.address-list-item:not(:last-child) {
+    margin-bottom: 9px;
 }
 
 .address {
@@ -188,6 +202,8 @@ body {
 
 .feature {
     background: var(--dark-bg-color);
+    padding: 200px;
+    text-align: center;
 }
 
 .feature-header {
@@ -198,6 +214,10 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--primary-bg-color);
+    width: 696px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .modal-open-btn {
@@ -208,11 +228,11 @@ body {
     font-weight: 700;
     font-size: 16px;
     line-height: 1.88;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    display: inline-block;
     letter-spacing: 0.06em;
     color: var(--primary-bg-color);
+    width: 216px;
+    height: 50px;
 }
 
 .modal-open-btn:hover,
@@ -224,15 +244,42 @@ body {
 
 /*-------------- CHARACTERISTIC --------------*/
 
+.section-characteristic {
+    padding-top: 94px;
+}
+
+.characteristic-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.characteristic-item {
+    flex-basis: calc((100%-90px)/4)
+}
+
 .characteristic-name {
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 
 .characteristic-description {
     line-height: 1.71;
     color: var(--primary-contact-color);
+}
+
+/*-------------- /CHARACTERISTIC --------------*/
+
+/*-------------- WHAT WE DO --------------*/
+
+.work-photo-list {
+    display: flex;
+    column-gap: 30px;
+}
+
+.work-photo-item {
+    flex-basis: calc((100%-60px)/3)
 }
 
 .name-header {
@@ -243,7 +290,7 @@ body {
     margin-bottom: 50px;
 }
 
-/*-------------- /CHARACTERISTIC --------------*/
+/*-------------- /WHAT WE DO --------------*/
 
 /*-------------- OUR TEAM --------------*/
 
