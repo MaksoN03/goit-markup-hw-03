@@ -382,11 +382,11 @@ body {
 
 .portfolio-projects-item {
     background: var(--primary-bg-color);
-    flex-basis: calc((100%-60px)/3);
+    flex-basis: calc((1110)/3);
 }
 
 .portfolio-projects-container{
-    margin: 20px 24px;
+    padding: 20px 24px;
     border: 1px solid #EEEEEE;
     border-top: 0;
 }
