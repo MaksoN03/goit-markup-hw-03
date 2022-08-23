@@ -84,7 +84,6 @@ body {
 .page-header-container {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .page-navigation {
@@ -104,6 +103,7 @@ body {
 .page-contacts {
     display: flex;
     column-gap: 50px;
+    margin-left: auto;
 }
 
 .weblogo {
@@ -202,7 +202,7 @@ body {
 
 .feature {
     background: var(--dark-bg-color);
-    padding: 200px;
+    padding: 200px 0;
     text-align: center;
 }
 
@@ -258,6 +258,7 @@ body {
 }
 
 .characteristic-name {
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
@@ -304,15 +305,15 @@ body {
 }
 
 .workers-list-item {
-    background: var(--primary-bg-color);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
     flex-basis: calc((100% - 90px)/ 4)
 }
 
 .workers-container {
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background: var(--primary-bg-color);
 }
 
 .workers-name {
