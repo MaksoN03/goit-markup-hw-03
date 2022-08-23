@@ -333,16 +333,13 @@ body {
 
 /*-------------- /OUR TEAM --------------*/
 
-/*-------------- PORTFOLIO BUTTONS --------------*/
-
-.page-buttons {
-    padding-top: 94px;
-}
+/*-------------- PORTFOLIO PROJECTS --------------*/
 
 .buttons-list {
     display: flex;
     column-gap: 8px;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .portfolio-buttons {
@@ -366,13 +363,9 @@ body {
     color: var(--primary-bg-color);
 }
 
-/*-------------- /PORTFOLIO BUTTONS --------------*/
-
-/*-------------- PORTFOLIO PROJECTS --------------*/
-
 .page-portfolio-projects {
-    margin-top: 34px;
-    margin-bottom: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .portfolio-projects {
